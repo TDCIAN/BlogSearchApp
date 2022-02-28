@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		1E45BD3227CC7AC0001E0BC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E45BD3127CC7AC0001E0BC5 /* AppDelegate.swift */; };
 		1E45BD3427CC7AC0001E0BC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E45BD3327CC7AC0001E0BC5 /* SceneDelegate.swift */; };
-		1E45BD3627CC7AC0001E0BC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E45BD3527CC7AC0001E0BC5 /* ViewController.swift */; };
-		1E45BD3927CC7AC0001E0BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E45BD3727CC7AC0001E0BC5 /* Main.storyboard */; };
 		1E45BD3B27CC7AC2001E0BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E45BD3A27CC7AC2001E0BC5 /* Assets.xcassets */; };
 		1E45BD3E27CC7AC2001E0BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E45BD3C27CC7AC2001E0BC5 /* LaunchScreen.storyboard */; };
+		1E45BD4627CC7C04001E0BC5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E45BD4527CC7C04001E0BC5 /* MainViewController.swift */; };
+		1E45BD4827CC7D04001E0BC5 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E45BD4727CC7D04001E0BC5 /* SearchBar.swift */; };
+		1E45BD4A27CC80D6001E0BC5 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E45BD4927CC80D6001E0BC5 /* FilterView.swift */; };
+		1E45BD4C27CC8236001E0BC5 /* BlogList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E45BD4B27CC8236001E0BC5 /* BlogList.swift */; };
+		1E45BD4E27CC8247001E0BC5 /* BlogListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E45BD4D27CC8247001E0BC5 /* BlogListCell.swift */; };
+		1E45BD5027CC8252001E0BC5 /* BlogListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E45BD4F27CC8252001E0BC5 /* BlogListCellData.swift */; };
+		1E45BD5927CC86F9001E0BC5 /* AlertActionConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E45BD5827CC86F9001E0BC5 /* AlertActionConvertible.swift */; };
+		CA52DD9B682967FCA88068F4 /* Pods_BlogSearchApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E88C0C3A12C874FB9DC0BE /* Pods_BlogSearchApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D0DE5C7FB8AEFA90F56ADEA /* Pods-BlogSearchApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogSearchApp.release.xcconfig"; path = "Target Support Files/Pods-BlogSearchApp/Pods-BlogSearchApp.release.xcconfig"; sourceTree = "<group>"; };
 		1E45BD2E27CC7AC0001E0BC5 /* BlogSearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogSearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E45BD3127CC7AC0001E0BC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E45BD3327CC7AC0001E0BC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E45BD3527CC7AC0001E0BC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1E45BD3827CC7AC0001E0BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E45BD3A27CC7AC2001E0BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E45BD3D27CC7AC2001E0BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E45BD3F27CC7AC2001E0BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E45BD4527CC7C04001E0BC5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1E45BD4727CC7D04001E0BC5 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		1E45BD4927CC80D6001E0BC5 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		1E45BD4B27CC8236001E0BC5 /* BlogList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogList.swift; sourceTree = "<group>"; };
+		1E45BD4D27CC8247001E0BC5 /* BlogListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListCell.swift; sourceTree = "<group>"; };
+		1E45BD4F27CC8252001E0BC5 /* BlogListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListCellData.swift; sourceTree = "<group>"; };
+		1E45BD5827CC86F9001E0BC5 /* AlertActionConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertActionConvertible.swift; sourceTree = "<group>"; };
+		27B0FFF9037AD93633339339 /* Pods-BlogSearchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogSearchApp.debug.xcconfig"; path = "Target Support Files/Pods-BlogSearchApp/Pods-BlogSearchApp.debug.xcconfig"; sourceTree = "<group>"; };
+		53E88C0C3A12C874FB9DC0BE /* Pods_BlogSearchApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlogSearchApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA52DD9B682967FCA88068F4 /* Pods_BlogSearchApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				1E45BD3027CC7AC0001E0BC5 /* BlogSearchApp */,
 				1E45BD2F27CC7AC0001E0BC5 /* Products */,
+				F1601F22FAC31232A1FD9EBC /* Pods */,
+				A99F15C7E0C41094C4E1C8BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,93 @@
 		1E45BD3027CC7AC0001E0BC5 /* BlogSearchApp */ = {
 			isa = PBXGroup;
 			children = (
+				1E45BD5227CC826E001E0BC5 /* Entities */,
+				1E45BD5127CC826B001E0BC5 /* Presentation */,
 				1E45BD3127CC7AC0001E0BC5 /* AppDelegate.swift */,
 				1E45BD3327CC7AC0001E0BC5 /* SceneDelegate.swift */,
-				1E45BD3527CC7AC0001E0BC5 /* ViewController.swift */,
-				1E45BD3727CC7AC0001E0BC5 /* Main.storyboard */,
 				1E45BD3A27CC7AC2001E0BC5 /* Assets.xcassets */,
 				1E45BD3C27CC7AC2001E0BC5 /* LaunchScreen.storyboard */,
 				1E45BD3F27CC7AC2001E0BC5 /* Info.plist */,
 			);
 			path = BlogSearchApp;
+			sourceTree = "<group>";
+		};
+		1E45BD5127CC826B001E0BC5 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1E45BD5427CC8617001E0BC5 /* MainViewController */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1E45BD5227CC826E001E0BC5 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				1E45BD4F27CC8252001E0BC5 /* BlogListCellData.swift */,
+				1E45BD5827CC86F9001E0BC5 /* AlertActionConvertible.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		1E45BD5327CC85FA001E0BC5 /* SubComponents */ = {
+			isa = PBXGroup;
+			children = (
+				1E45BD5527CC862C001E0BC5 /* SearchBar */,
+				1E45BD5627CC8635001E0BC5 /* BlogListView */,
+			);
+			path = SubComponents;
+			sourceTree = "<group>";
+		};
+		1E45BD5427CC8617001E0BC5 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E45BD4527CC7C04001E0BC5 /* MainViewController.swift */,
+				1E45BD5327CC85FA001E0BC5 /* SubComponents */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		1E45BD5527CC862C001E0BC5 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				1E45BD4727CC7D04001E0BC5 /* SearchBar.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		1E45BD5627CC8635001E0BC5 /* BlogListView */ = {
+			isa = PBXGroup;
+			children = (
+				1E45BD5727CC864A001E0BC5 /* SubComponents */,
+				1E45BD4B27CC8236001E0BC5 /* BlogList.swift */,
+			);
+			path = BlogListView;
+			sourceTree = "<group>";
+		};
+		1E45BD5727CC864A001E0BC5 /* SubComponents */ = {
+			isa = PBXGroup;
+			children = (
+				1E45BD4927CC80D6001E0BC5 /* FilterView.swift */,
+				1E45BD4D27CC8247001E0BC5 /* BlogListCell.swift */,
+			);
+			path = SubComponents;
+			sourceTree = "<group>";
+		};
+		A99F15C7E0C41094C4E1C8BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53E88C0C3A12C874FB9DC0BE /* Pods_BlogSearchApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1601F22FAC31232A1FD9EBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27B0FFF9037AD93633339339 /* Pods-BlogSearchApp.debug.xcconfig */,
+				0D0DE5C7FB8AEFA90F56ADEA /* Pods-BlogSearchApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E45BD4227CC7AC2001E0BC5 /* Build configuration list for PBXNativeTarget "BlogSearchApp" */;
 			buildPhases = (
+				929CC2E79BAB0DF9D1BEB642 /* [CP] Check Pods Manifest.lock */,
 				1E45BD2A27CC7AC0001E0BC5 /* Sources */,
 				1E45BD2B27CC7AC0001E0BC5 /* Frameworks */,
 				1E45BD2C27CC7AC0001E0BC5 /* Resources */,
+				EEA765283E2D4B67C364A12C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +224,73 @@
 			files = (
 				1E45BD3E27CC7AC2001E0BC5 /* LaunchScreen.storyboard in Resources */,
 				1E45BD3B27CC7AC2001E0BC5 /* Assets.xcassets in Resources */,
-				1E45BD3927CC7AC0001E0BC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		929CC2E79BAB0DF9D1BEB642 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlogSearchApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEA765283E2D4B67C364A12C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlogSearchApp/Pods-BlogSearchApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlogSearchApp/Pods-BlogSearchApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlogSearchApp/Pods-BlogSearchApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E45BD2A27CC7AC0001E0BC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E45BD3627CC7AC0001E0BC5 /* ViewController.swift in Sources */,
+				1E45BD4627CC7C04001E0BC5 /* MainViewController.swift in Sources */,
+				1E45BD4E27CC8247001E0BC5 /* BlogListCell.swift in Sources */,
+				1E45BD4C27CC8236001E0BC5 /* BlogList.swift in Sources */,
+				1E45BD5027CC8252001E0BC5 /* BlogListCellData.swift in Sources */,
+				1E45BD4827CC7D04001E0BC5 /* SearchBar.swift in Sources */,
 				1E45BD3227CC7AC0001E0BC5 /* AppDelegate.swift in Sources */,
+				1E45BD4A27CC80D6001E0BC5 /* FilterView.swift in Sources */,
 				1E45BD3427CC7AC0001E0BC5 /* SceneDelegate.swift in Sources */,
+				1E45BD5927CC86F9001E0BC5 /* AlertActionConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1E45BD3727CC7AC0001E0BC5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E45BD3827CC7AC0001E0BC5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1E45BD3C27CC7AC2001E0BC5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +420,7 @@
 		};
 		1E45BD4327CC7AC2001E0BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27B0FFF9037AD93633339339 /* Pods-BlogSearchApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +431,7 @@
 				INFOPLIST_FILE = BlogSearchApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +449,7 @@
 		};
 		1E45BD4427CC7AC2001E0BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D0DE5C7FB8AEFA90F56ADEA /* Pods-BlogSearchApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +460,7 @@
 				INFOPLIST_FILE = BlogSearchApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
