@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2F5F8727D57EF000CABDC9 /* SearchBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F5F8627D57EF000CABDC9 /* SearchBarViewModel.swift */; };
+		1E2F5F8927D5801F00CABDC9 /* FilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F5F8827D5801F00CABDC9 /* FilterViewModel.swift */; };
 		1E45BD3227CC7AC0001E0BC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E45BD3127CC7AC0001E0BC5 /* AppDelegate.swift */; };
 		1E45BD3427CC7AC0001E0BC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E45BD3327CC7AC0001E0BC5 /* SceneDelegate.swift */; };
 		1E45BD3B27CC7AC2001E0BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E45BD3A27CC7AC2001E0BC5 /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		0D0DE5C7FB8AEFA90F56ADEA /* Pods-BlogSearchApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogSearchApp.release.xcconfig"; path = "Target Support Files/Pods-BlogSearchApp/Pods-BlogSearchApp.release.xcconfig"; sourceTree = "<group>"; };
+		1E2F5F8627D57EF000CABDC9 /* SearchBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewModel.swift; sourceTree = "<group>"; };
+		1E2F5F8827D5801F00CABDC9 /* FilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewModel.swift; sourceTree = "<group>"; };
 		1E45BD2E27CC7AC0001E0BC5 /* BlogSearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogSearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E45BD3127CC7AC0001E0BC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E45BD3327CC7AC0001E0BC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				1E45BD4727CC7D04001E0BC5 /* SearchBar.swift */,
+				1E2F5F8627D57EF000CABDC9 /* SearchBarViewModel.swift */,
 			);
 			path = SearchBar;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			children = (
 				1E45BD4927CC80D6001E0BC5 /* FilterView.swift */,
 				1E45BD4D27CC8247001E0BC5 /* BlogListCell.swift */,
+				1E2F5F8827D5801F00CABDC9 /* FilterViewModel.swift */,
 			);
 			path = SubComponents;
 			sourceTree = "<group>";
@@ -293,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2F5F8927D5801F00CABDC9 /* FilterViewModel.swift in Sources */,
 				1E45BD4627CC7C04001E0BC5 /* MainViewController.swift in Sources */,
 				1E45BD4E27CC8247001E0BC5 /* BlogListCell.swift in Sources */,
 				1E45BD5B27CC8CBE001E0BC5 /* DKBlog.swift in Sources */,
@@ -303,6 +310,7 @@
 				1E45BD3227CC7AC0001E0BC5 /* AppDelegate.swift in Sources */,
 				1E45BD4A27CC80D6001E0BC5 /* FilterView.swift in Sources */,
 				1E45BD3427CC7AC0001E0BC5 /* SceneDelegate.swift in Sources */,
+				1E2F5F8727D57EF000CABDC9 /* SearchBarViewModel.swift in Sources */,
 				1E45BD6027CC90C6001E0BC5 /* SearchBlogNetwork.swift in Sources */,
 				1E45BD5927CC86F9001E0BC5 /* AlertActionConvertible.swift in Sources */,
 			);
