@@ -52,7 +52,7 @@ class MainViewController: UIViewController {
                 return error.localizedDescription
             }
         
-        // 네트워크를 통해 가져온 값을 cellData로 변환
+        // 네트워크를 통해 가져온 값을 cellData로 변환	
         let cellData = blogValue
             .map { blog -> [BlogListCellData] in
                 return blog.documents
